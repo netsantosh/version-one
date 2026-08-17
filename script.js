@@ -38,9 +38,11 @@ Quantity: ${qty}
 Required delivery date: ${date}
 Message: ${message || "None"}
 
-Please confirm availability and any applicable delivery charge.`;
+Please confirm availability and any applicable delivery charge.
+Payment UPI: 948488484@upi
+After confirmation, please send the payment to this UPI ID.`;
 
-    window.open("https://wa.me/91994949494?text="+encodeURIComponent(text),"_blank","noopener");
+    window.open("https://wa.me/919619569006?text="+encodeURIComponent(text),"_blank","noopener");
   });
 }
 document.getElementById("year").textContent=new Date().getFullYear();
