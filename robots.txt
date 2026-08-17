@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace YOUR-USERNAME after creating the GitHub repository.
+Sitemap: https://YOUR-USERNAME.github.io/vanvay/sitemap.xml
